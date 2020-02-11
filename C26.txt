@@ -1,0 +1,72 @@
+$ git --version
+git version 2.25.0.windows.1
+
+$ ls
+'$RECYCLE.BIN'/   Driver/   student_proj/  'System Volume Information'/
+
+$ cd student_proj/projC26
+
+user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26
+$ ls
+gitcommands.txt
+
+user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26
+
+$ pwd
+/d/student_proj/projC26
+
+user@DESKTOP-V0E3HJ4 MINGW64 ~
+$ git config --global user.name "studentname"
+
+user@DESKTOP-V0E3HJ4 MINGW64 ~
+$ git config --global user.email "namestudent9@gmail.com"
+
+$ git clone https://github.com/whitehatjr/AngryBirdsStage2.5Activity.git
+Cloning into 'AngryBirdsStage2.5Activity'...
+remote: Enumerating objects: 44, done.
+remote: Counting objects: 100% (44/44), done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 44 (delta 13), reused 44 (delta 13), pack-reused 0
+Unpacking objects: 100% (44/44), 2.54 MiB | 615.00 KiB/s, done.
+
+user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26
+$ ls
+AngryBirdsStage2.5Activity/  gitcommands.txt
+
+user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26
+$ ls
+AB2.5/  gitcommands.txt
+
+user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26
+$ cd AB2.5
+
+user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26/AB2.5 (master)
+$ ls
+BaseClass.js  Bird.js  Box.js  Ground.js  index.html  Log.js  matter.js  p5.dom.min.js  p5.min.js  p5.sound.min.js  Pig.js  README.md  sketch.js  sprites/  style.css
+
+user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26/AB2.5 (master)
+$ git add sketch.js
+
+user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26/AB2.5 (master)
+$ git commit -m "modified file"
+[master f8253ac] modified file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26/AB2.5 (master)
+$ git remote add C26 https://github.com/studentname/C26.git
+
+user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26/AB2.5 (master)
+$ git push -u C26
+Enumerating objects: 47, done.
+Counting objects: 100% (47/47), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (43/43), done.
+Writing objects: 100% (47/47), 2.54 MiB | 26.00 KiB/s, done.
+Total 47 (delta 15), reused 0 (delta 0)
+remote: Resolving deltas: 100% (15/15), done.
+To https://github.com/studentname/C26.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'C26'.
+
+user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26/AB2.5 (master)
+$
