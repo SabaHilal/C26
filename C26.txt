@@ -44,8 +44,12 @@ user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26/AB2.5 (master)
 $ ls
 BaseClass.js  Bird.js  Box.js  Ground.js  index.html  Log.js  matter.js  p5.dom.min.js  p5.min.js  p5.sound.min.js  Pig.js  README.md  sketch.js  sprites/  style.css
 
+$ git status
+
 user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26/AB2.5 (master)
 $ git add sketch.js
+
+$ git status
 
 user@DESKTOP-V0E3HJ4 MINGW64 /d/student_proj/projC26/AB2.5 (master)
 $ git commit -m "modified file"
